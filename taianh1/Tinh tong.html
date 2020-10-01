@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<body>
+<script>
+function tinhToan()
+{
+var a=document.getElementById("a");
+var b=document.getElementById("b");
+var tong=document.getElementById("tong");
+tong.value=parseInt(a.value)+parseInt(b.value);
+}
+</script>
+<input type="text" id="a" onkeyup="tinhToan()"></input>
+<input type="text" id="b" onkeyup="tinhToan()"></input>
+<input type="text" value"" id="tong">Ket qua</input>
+</body>
